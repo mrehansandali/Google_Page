@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header nav li {
+    display: flex;
+    float: right;
+    height: 50px;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px -20px;
+}  
+header img{
+    height: 20px;
+}
+header nav li a {
+    font-size: 15px;
+    text-decoration: none;
+}
+.searchurl a img {
+    height: 14px;
+}
+#mic {
+    height: 35px;
+}
+.searchurl{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 480px;
+}
+.searchurl input {
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: transparent;
+    box-shadow: 10px 10px 60px 10px #D3D3D3;
+}
+.google img {
+    position: absolute;
+    height: 120px;
+    margin-top: 170px;
+    margin-left: 550px;
+}
+.icons img {
+    height: 35px;    
+}
+.icons {
+    display: flex;
+    position: absolute;
+    height: 80px;
+    width: 490px;
+    margin-top: 400px;
+    margin-left: 490px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons2 img {
+    height: 35px;    
+}
+.icons2 {
+    position: absolute;
+    display: flex;
+    height: 80px;
+    width: 490px;
+    margin-top: 480px;
+    margin-left: 490px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .icons2 a {
+    background: lightblue;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+} */
+.cc img {
+    height: 18px;
+}
+.cc a {
+    font-size: 15px;
+    color: rgb(93, 109, 137);
+    border-radius: 18px;
+    text-decoration: none;
+    height: 35px;
+    width: 160px;
+    position: absolute;
+    background-color: rgb(185, 188, 188);
+    margin-top: 680px;
+    margin-left: 1340px;
+    
+}
